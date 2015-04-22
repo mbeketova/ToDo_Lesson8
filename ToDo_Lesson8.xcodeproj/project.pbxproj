@@ -15,6 +15,7 @@
 		84D1D2951AE763A9003800CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D1D2941AE763A9003800CC /* Images.xcassets */; };
 		84D1D2981AE763A9003800CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D1D2961AE763A9003800CC /* LaunchScreen.xib */; };
 		84D1D2A41AE763A9003800CC /* ToDo_Lesson8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1D2A31AE763A9003800CC /* ToDo_Lesson8Tests.m */; };
+		84D1D2AF1AE7670C003800CC /* ToDoDatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1D2AE1AE7670C003800CC /* ToDoDatailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,7 @@
 		84D1D2851AE763A9003800CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D1D2861AE763A9003800CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84D1D2881AE763A9003800CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84D1D2891AE763A9003800CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D1D2891AE763A9003800CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; };
 		84D1D28C1AE763A9003800CC /* ToDo_Lesson8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_Lesson8.xcdatamodel; sourceTree = "<group>"; };
 		84D1D28E1AE763A9003800CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84D1D28F1AE763A9003800CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -42,6 +43,8 @@
 		84D1D29D1AE763A9003800CC /* ToDo_Lesson8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_Lesson8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D1D2A21AE763A9003800CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D1D2A31AE763A9003800CC /* ToDo_Lesson8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo_Lesson8Tests.m; sourceTree = "<group>"; };
+		84D1D2AD1AE7670C003800CC /* ToDoDatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoDatailViewController.h; sourceTree = "<group>"; };
+		84D1D2AE1AE7670C003800CC /* ToDoDatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoDatailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		84D1D2781AE763A9003800CC = {
 			isa = PBXGroup;
 			children = (
+				84D1D2AD1AE7670C003800CC /* ToDoDatailViewController.h */,
+				84D1D2AE1AE7670C003800CC /* ToDoDatailViewController.m */,
 				84D1D2831AE763A9003800CC /* ToDo_Lesson8 */,
 				84D1D2A01AE763A9003800CC /* ToDo_Lesson8Tests */,
 				84D1D2821AE763A9003800CC /* Products */,
@@ -224,6 +229,7 @@
 			files = (
 				84D1D28A1AE763A9003800CC /* AppDelegate.m in Sources */,
 				84D1D2871AE763A9003800CC /* main.m in Sources */,
+				84D1D2AF1AE7670C003800CC /* ToDoDatailViewController.m in Sources */,
 				84D1D2901AE763A9003800CC /* ViewController.m in Sources */,
 				84D1D28D1AE763A9003800CC /* ToDo_Lesson8.xcdatamodeld in Sources */,
 			);
@@ -418,6 +424,7 @@
 				84D1D2A91AE763A9003800CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D1D2AA1AE763A9003800CC /* Build configuration list for PBXNativeTarget "ToDo_Lesson8Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				84D1D2AC1AE763A9003800CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
